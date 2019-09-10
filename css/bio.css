@@ -1,0 +1,134 @@
+html, body {	
+	padding: 0;
+	margin: 0;
+	font-family: 'Dosis', sans-serif;
+}
+
+#container {
+	position: relative;
+}
+
+.selected {
+  color: #B43104;
+}
+
+h1 {
+	font-size: 3vw;
+	text-align: center;
+}
+
+/* Biography Content */
+
+#bio-wrapper {
+	position: relative;
+	border: 1px solid white;
+	margin-top: 8%;
+}
+
+.bio {
+	position: absolute;
+	left: 10%;
+	right: 10%;
+}
+
+.bio img {
+	width: 40vw;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.headshot {
+	float: left;
+	position: relative;
+}
+
+.bio p{
+	font-family: 'Abel', sans-serif; 
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	margin-top: -1%;
+	min-width: 50%;
+	font-size: 1.08vw;
+	line-height: 1.5;
+}
+
+.bio-content {
+	left: 4%;
+	float: left;
+	width: 45%;
+	position: relative;
+}
+
+/*Client list*/
+
+#client-wrapper {
+	position: relative;
+	margin-top: 10%;
+	width: 100%;
+}
+
+.line {
+	position: absolute;
+	width: 80%;
+	margin-left: 25.5%;
+	margin-right: 25.5%;
+	margin-top: 31.5%;
+}
+
+.line img {
+	width: 70%;
+	height: auto;
+}
+
+.list {
+	position: absolute;
+	left: 10%;
+	right: 10%;
+}
+
+.row {
+	position: relative;
+}
+
+.row img {
+  width: 14vw;
+  opacity: 0.8;
+  height: auto;
+  padding: 2.8% 3.3% 0.8% 3.3%;  
+  cursor: pointer;
+}
+
+.client-image {
+	position: absolute;
+	margin-top: 38.5%;
+	width: 100%;
+}
+
+#footer {
+	position: relative;
+	margin-top: 73%;
+	border-top: 1px solid #BDBDBD;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#footer p {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.08vw;
+	text-align: center;
+}
+
+.center i {
+  color: black;
+  font-size: 1.2vw;
+  text-align: center;
+}
+
+.center i:hover {
+  color: #B43104;
+  transition: .5s;
+}
+

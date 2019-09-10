@@ -1,0 +1,67 @@
+nav a {
+	font-family: 'Dosis', sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 8px 0px 5px;
+	font-size: 1.2vw;
+	color: black;
+}
+
+nav a:hover {
+	color: #B43104;
+	transition: .5s;
+}
+
+i {
+	width: 2.5vw;
+	height: 2.5vw;
+}
+
+#loading {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  position:fixed;
+  z-index: 100;
+}
+
+#nav_bar {
+	padding-top: 15px;
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	top: 0;
+	text-align: center;
+	background-color: white;
+	z-index: 5;
+}
+
+#nav_bar i {
+	font-size: 1.7vw;
+}
+
+.left, .right {
+	position: absolute;
+}
+
+.left {
+	top: 62%;
+	right: 58%;
+}
+
+.right {
+	top: 64%;
+	left: 58%;
+}
+
+.right a {
+	padding: 0 10px 0 0;
+}
+
+.logo img {
+	width: 13.4vw;
+}
