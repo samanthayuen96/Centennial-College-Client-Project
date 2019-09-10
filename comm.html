@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Official Website of Corey J. Stone</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Browser Tab Icon -->
+	<link rel="shortcut icon" href="img/logo/lip.png" type="image/png" />
+	
+	<!-- CSS File Links -->
+	<link rel="stylesheet" type="text/css" href="css/w3.css" />
+	<link rel="stylesheet" type="text/css" href="css/second_nav.css">
+	<link rel="stylesheet" type="text/css" href="css/gallery_page.css" />
+
+	<!-- Other Online Style Links -->
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	
+	<!-- JS File -->
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/transition.js"></script>
+
+</head>
+
+<body>
+	<div id="loading"></div>
+	
+	<div id="container">
+		<div id="nav_bar">
+			<nav>
+				<div class="left">
+					<a href="https://www.facebook.com/coreyj.stone.9"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/coreyjstone3"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="https://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/coreyjstone/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="http://www.imdb.com/name/nm6924922/"><i class="fa fa-imdb" aria-hidden="true"></i></a>
+				</div>
+				
+				<a class="logo" href="index.html"><img src="img/logo/name.png" /></a>
+
+				<div class="right">
+					<a href="bio.html">ABOUT COREY</a>
+					<a href="comm.html" style="color:#B43104">GALLERY</a>
+					<a href="service.html">SERVICES</a>
+					<a href="contact.html">CONTACT</a>
+				</div>
+			</nav>
+		</div>
+
+		<!-- Sidebar -->
+		<div class="sidebar" id="mySidebar">
+			<a href="entertain.html" id="entertainment"><p>Entertainment</p></a>
+			<a href="print.html" id="print"><p>Print</p></a>
+			<a href="fashion.html" id="fashion"><p>Fashion</p></a>
+			<a href="comm.html" id="commercial" style="color: #B43104"><p>Commercial</p></a>
+		</div>
+
+		<!-- Push down content on small screens --> 
+  		<div class="w3-hide-large" style="margin-top:83px"></div>
+
+  		<div style="margin-top: 11%">
+  			<div class="gallery_container">
+			    <div class="row">
+			      <img class="portrait" src="img/commercial/TN/1.jpg" data-image="img/commercial/FS/1.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/2.jpg" data-image="img/commercial/FS/2.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/3.jpg" data-image="img/commercial/FS/3.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/4.jpg" data-image="img/commercial/FS/4.jpg" onclick="onClick(this)" />
+			    </div>
+
+			    <div class="row">
+			      <img src="img/commercial/TN/5.jpg" data-image="img/commercial/FS/5.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/6.jpg" data-image="img/commercial/FS/6.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/7.jpg" data-image="img/commercial/FS/7.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/8.jpg" data-image="img/commercial/FS/8.jpg" onclick="onClick(this)" />
+			    </div>
+			    
+			    <div class="row">
+			      <img src="img/commercial/TN/9.jpg" data-image="img/commercial/FS/9.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/10.jpg" data-image="img/commercial/FS/10.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/11.jpg" data-image="img/commercial/FS/11.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/12.jpg" data-image="img/commercial/FS/12.jpg" onclick="onClick(this)" />
+			    </div>
+
+			    <div class="row">
+			      <img src="img/commercial/TN/13.jpg" data-image="img/commercial/FS/13.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/14.jpg" data-image="img/commercial/FS/14.jpg" onclick="onClick(this)" />
+			      <img class="portrait" src="img/commercial/TN/15.jpg" data-image="img/commercial/FS/15.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/16.jpg" data-image="img/commercial/FS/16.jpg" onclick="onClick(this)" />
+			    </div>
+
+			     <div class="row">
+			      <img src="img/commercial/TN/17.jpg" data-image="img/commercial/FS/17.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/18.jpg" data-image="img/commercial/FS/18.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/19.jpg" data-image="img/commercial/FS/19.jpg" onclick="onClick(this)" />
+			      <img src="img/commercial/TN/20.jpg" data-image="img/commercial/FS/20.jpg" onclick="onClick(this)" />
+			    </div>
+			</div>
+  		</div>
+		
+		<!-- Modal for full size images on click-->
+  		<div id="lightbox" class="w3-modal w3-black" onclick="this.style.display='none';">
+		    <span class="w3-button w3-black w3-xlarge w3-display-topright">&#10006;</span>
+		    <div id="mod-cont" class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64" >
+		      	<img id="myImage" class="w3-image" />
+		      	<p id="caption"></p>
+		      </div>
+	    </div>
+	</div>
+
+	<div class="footer">
+		<p>Copyright &copy; 2017 Corey J. Stone. All Rights Reserved.</p> 
+	</div>
+
+</body>
+</html>
